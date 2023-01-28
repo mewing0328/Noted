@@ -117,36 +117,42 @@ Utilized Visual Studio Code
 
 1. Demo of tests passed, node index initiating the application, index.html file created in the dist folder.
 
-    <img src="./Assets/initiateSs.png" style="width:30rem">
+    <img src="./public/assets/media/x" style="width:30rem">
 
 2. Answer the questions within the terminal prompts - utilizes the [Inquirer 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4) package from [npm.Inc.].(https://www.npmjs.com/) to obtain the user inputs. THEN a profile is created.
 
-    <img src="./Assets/profileSs.png" style="width:30rem">
+    <img src="./public/assets/media/x" style="width:30rem">
 
 3. User can start over and doing so will clear the index.html of employee profiles.
 
-    <img src="./Assets/startoverSs.png" style="width:30rem">
+    <img src="./public/assets/media/x" style="width:30rem">
 
 4. After all questions are answered, the application pushes employee cards into the [HTML file](./dist/index.html) and applies the [CSS](./dist/style.css) styling to those cards. <br> <br>Screenshots to show responsive to screen size.
 
-    <img src="./Assets/responsiveSs.png" style="width:30rem">
-    <img src="./Assets/responsiveSmallSs.png" style="width:30rem">
+    <img src="./public/assets/media/x" style="width:30rem">
+    <img src="./public/assets/media/x" style="width:30rem">
 
 5. When the user clicks on an email address in the HTML, the user's default email program opens and populates the TO field of the email with the address
 
-    <img src="./Assets/emailSs.png" style="width:30rem">
+    <img src="./public/assets/media/x" style="width:30rem">
 
 
 6. When the user clicks on the GitHub username, then that GitHub profile opens in a new tab
 
-    <img src="./Assets/githubSs.png" style="width:30rem">    
+    <img src="./public/assets/media/x" style="width:30rem">    
 
 <br>
 
 ## Credits
 Credit for tutorials and guides I utilized in my code
 
-[npm](https://remarkablemark.org/blog/2021/08/28/how-to-create-npm-package-lockfile/): How to create a package-lock.json
+[npm: Express](https://www.npmjs.com/package/express)
+
+[npm: UUID](https://www.npmjs.com/package/uuid): Generate random ids 
+
+[path in node.js](https://www.javascripttutorial.net/nodejs-tutorial/nodejs-path-module/#:~:text=in%20Node.js-,Node.,a%20core%20module%20in%20Node.): Guide for path
+
+
 
 [node.js](https://nodejs.dev/en/learn/writing-files-with-nodejs/): How to append to an existing file.
 

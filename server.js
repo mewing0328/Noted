@@ -37,3 +37,17 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 */
 
 const express = require('express');
+const { appendFile } = require('fs');
+const path = require('path');
+const api = require('./routes/notes.js') // variable tied to a file location
+const PORT = process.env.PORT || 3001;
+const app = express(); // variable tied to invoking express methods
+
+// TO DO - Research middleware and if necessary for this challenge
+
+
+
+// TO DO - Change to Heroku url when ready
+app.listen(PORT, () => 
+    console.log(`App is listening at http://localhost:${PORT} 🚀`)
+);
