@@ -43,6 +43,11 @@ const api = require('./routes/notes.js') // variable tied to a file location
 const PORT = process.env.PORT || 3001;
 const app = express(); // variable tied to invoking express methods
 
+// Middleware for parsing JSON and urlencoded form data
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use('/api', api);
+
 app.use(express.static('public')); // provide public access to files
 
 // TO DO - Research middleware and if necessary for this challenge
@@ -59,9 +64,13 @@ app.get('/notes', (req, res) =>
 );
 
 // Wildcard route to direct users back to index
-app.get('/*', (req, res) =>
+app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
+
+// app.get('/api/notes', (req, res) => {
+//   res.json()
+// })
 
 // TO DO - Change to Heroku url when ready
 app.listen(PORT, () => 
