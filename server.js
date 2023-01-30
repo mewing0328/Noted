@@ -1,3 +1,44 @@
+const express = require('express');
+const path = require('path');
+const { clog } = require('./middleware/clog');
+const api = require('./routes/index.js') // variable tied to a file location
+const PORT = process.env.PORT || 3001;
+const app = express(); // variable tied to invoking express methods
+
+// Import custom middleware, "cLog"
+app.use(clog);
+
+// Middleware for parsing JSON and urlencoded form data
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use('/api', api);
+
+app.use(express.static('public')); // provide public access to files
+
+// GET Route for html page
+app.get('/', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/index.html'))
+);
+
+// GET Route for notes page
+app.get('/notes', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/notes.html'))
+);
+
+// Wildcard route to direct users back to index
+app.get('*', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/index.html'))
+);
+
+// app.get('/api/notes', (req, res) => {
+//   res.json()
+// })
+
+// TO DO - Change to Heroku url when ready
+app.listen(PORT, () => 
+    console.log(`App is listening at http://localhost:${PORT} 🚀`)
+);
+
 /* 
 TO DO: 
 - GET /notes should return the notes.html file.
@@ -35,44 +76,3 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
 */
-
-const express = require('express');
-const { appendFile } = require('fs');
-const path = require('path');
-const api = require('./routes/notes.js') // variable tied to a file location
-const PORT = process.env.PORT || 3001;
-const app = express(); // variable tied to invoking express methods
-
-// Middleware for parsing JSON and urlencoded form data
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use('/api', api);
-
-app.use(express.static('public')); // provide public access to files
-
-// TO DO - Research middleware and if necessary for this challenge
-
-
-// GET Route for html page
-app.get('/', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/index.html'))
-);
-
-// GET Route for notes page
-app.get('/notes', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/notes.html'))
-);
-
-// Wildcard route to direct users back to index
-app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/index.html'))
-);
-
-// app.get('/api/notes', (req, res) => {
-//   res.json()
-// })
-
-// TO DO - Change to Heroku url when ready
-app.listen(PORT, () => 
-    console.log(`App is listening at http://localhost:${PORT} 🚀`)
-);
