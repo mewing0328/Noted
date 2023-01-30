@@ -31,14 +31,8 @@ const getNotes = () =>
     headers: {
       'Content-Type': 'application/json',
     },
-  }) // TO DO - add what happens after GET
-  .then((response) => response.json())
-  .then((data) => data)
-  .catch((error) => {
-    console.error('Error:', error);
   });
 
-// Save a new note in the application
 const saveNote = (note) =>
   fetch('/api/notes', {
     method: 'POST',
@@ -46,14 +40,6 @@ const saveNote = (note) =>
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(note),
-  }) // TO DO - add what happens after GET
-  .then((response) => response.json())
-  .then((data) => {
-    alert(data);
-    createCard(note);
-  })
-  .catch((error) => {
-    console.error('Error:', error);
   });
 
 const deleteNote = (id) =>
