@@ -25,6 +25,11 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
+// Starter code has '/api/notes/${id}
+app.delete('/:id', (req, res) => 
+  res.json(`Item has been deleted 🗑️`)
+);
+
 // Wildcard route to direct users back to index
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
