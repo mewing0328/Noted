@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "title": "Deploy on Heroku",
+        "text": "Check your Heroku access and learn how to deploy on Heroku\n",
+        "id": "cdba41f9-78f7-4fcc-81b5-a60733400a69"
+    },
+    {
+        "title": "Complete the README",
+        "text": "Provide credit to the GWU bootcamp (11-Express => 01-Activities => 28-Stu_Mini-Project)",
+        "id": "1d254d19-a9d8-4eff-9778-ec7e717ef89c"
+    },
+    {
+        "title": "Test for Delete",
+        "text": "Check Database to see if deleting",
+        "id": "ff753176-535b-48e7-b092-6f857d4153d0"
+    },
+    {
+        "title": "Test for console.info",
+        "text": "Testing",
+        "id": "cf0db3ca-81d0-4f3e-af57-4321965cfc1e"
+    },
+    {
+        "title": "Trying",
+        "text": "Again",
+        "id": "e76c2ef0-2718-4eb0-87c7-1b25c6bd6aca"
+    },
+    {
+        "title": "MaSandra",
+        "text": "Helllppp",
+        "id": "cf078c20-a8fe-401c-81b3-cdfa54bef99b"
+    }
+]
