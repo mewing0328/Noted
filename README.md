@@ -1,11 +1,11 @@
 # Noted
-[![MIT License](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![ISC License](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description
 Noted application uses Express.js back end and will save and retrieve note data from a JSON file. Application deployed in Heroku.
 
 ## My Links
-[My Deployed Application Site](x)
+[My Deployed Application Site](https://noted-mewing0328.herokuapp.com/)
 
 [GitHub Repository](https://github.com/mewing0328/Noted)
 
@@ -70,7 +70,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## Demo
 [Link for demo video](x) (Length of video: x minutes and x seconds)
 
-The video is also within the assets folder named "myTeam Demo.mp4".
+The video is also within the assets folder named "Noted Demo.mp4".
 
 A walkthrough video that demonstrates: 
 
@@ -85,15 +85,6 @@ For all contributions, please refer to [Contributor Covenant Code of Conduct](ht
 
 <br>
 
-## Tests 
-The tests will be invoked by using the following command:
-```bash
-npm run test
-```
-As per [Jest wesbite](https://jestjs.io/), "Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase. It allows you to write tests with an approachable, familiar and feature-rich API that gives you results quickly."
-
-<br>
-
 ## Questions
 Interested in seeing my other work?
 
@@ -104,11 +95,11 @@ If you have additional questions, please reach me at [masandraewing@gmail.com](m
 <br>
 
 ## License 
-myTeam project is covered by MIT license. 
+Noted project is covered by ISC license. 
 
  To view the most current and full license description in opensource.org, click on the license name below.  
 
- [![MIT}](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+ [![ISC}](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 <br>
 
