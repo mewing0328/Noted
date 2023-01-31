@@ -146,30 +146,16 @@ Utilized Visual Studio Code
 ## Credits
 Credit for tutorials and guides I utilized in my code
 
+[Bootstrap](https://getbootstrap.com/): CSS styling
+
 [npm: Express](https://www.npmjs.com/package/express)
 
 [npm: UUID](https://www.npmjs.com/package/uuid): Generate random ids 
 
 [path in node.js](https://www.javascripttutorial.net/nodejs-tutorial/nodejs-path-module/#:~:text=in%20Node.js-,Node.,a%20core%20module%20in%20Node.): Guide for path
 
-
-
-[node.js](https://nodejs.dev/en/learn/writing-files-with-nodejs/): How to append to an existing file.
-
-[inquirer npm](https://www.npmjs.com/package/inquirer): Inquirier to ask and get the user inputs.
-
-[jestjs.io](https://jestjs.io/docs/getting-started): Jest documentation to create my test.js files
-
-[Bootstrap](https://getbootstrap.com/): CSS styling
-
-[Call the Superclass Constructor](http://www.beginwithjava.com/java/inheritance/calling-the-superclass-constructor.html): How to utilize the Employee constructor to the Engineer, Manager, and Intern js files.
-
-[window.open](https://www.geeksforgeeks.org/how-to-open-url-in-new-tab-using-javascript/): Open the GitHub on a new page
-
-[Open Email in Default Mail App](https://stackoverflow.com/questions/4994954/open-default-mail-client-with-a-link)
-
 [pixabay](https://pixabay.com/): Images rendered on the html page
 
-[pixabay](https://pixabay.com/users/ivke32-2526695/): This account for the icons for each employee card
-
 [Adobe Logo Express Maker](https://express.adobe.com/express-apps/logo-maker): Utilized to create a custom logo for the application
+
+[heroku Docs](https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true): Guide to integrate Noted repo with Heroku
