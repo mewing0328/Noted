@@ -14,11 +14,7 @@ Noted application uses Express.js back end and will save and retrieve note data 
 
 [2. Usage](#usage)
 
-[3. Demo](#demo)
-
-[4. Contributing](#contributing)
-
-[5. Tests](#tests)
+[3. Contributing](#contributing)
 
 [6. Questions](#questions)
 
@@ -67,14 +63,6 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 - BONUS: allows users to delete notes.
 
 ```
-## Demo
-[Link for demo video](x) (Length of video: x minutes and x seconds)
-
-The video is also within the assets folder named "Noted Demo.mp4".
-
-A walkthrough video that demonstrates: 
-
-<br>
 
 ## Contributing 
 Contributions are welcomed for future versions with features such as:
