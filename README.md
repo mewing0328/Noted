@@ -2,7 +2,10 @@
 [![ISC License](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description
-Noted application uses Express.js back end and will save and retrieve note data from a JSON file. Application deployed in Heroku.
+Noted application uses Express.js back end and saves and retrieves note data from a JSON file. Application is deployed in Heroku.
+
+Use Case
+As a small business owner, I am able to write and save notes so that I can organize my thoughts and keep track of tasks I need to complete.
 
 ## My Links
 [My Deployed Application Site](https://noted-mewing0328.herokuapp.com/)
@@ -16,13 +19,13 @@ Noted application uses Express.js back end and will save and retrieve note data 
 
 [3. Contributing](#contributing)
 
-[6. Questions](#questions)
+[4. Questions](#questions)
 
-[7. License](#license)
+[5. License](#license)
 
-[8. Screenshots](#screenshots)
+[6. Screenshots](#screenshots)
 
-[9. Credits](#credits)
+[7. Credits](#credits)
 
 ## Installation 
 The application has dependencies (see package.json file). Before using the application, install npm modules.
@@ -35,38 +38,27 @@ npm install
 The application will be invoked by using the following command:
 
 ```bash
-node index.js
+node server.js
 ```
 
 ```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-
-- the front end connects to an Express.js back end.
-- the back end stores notes that have a unique id in a JSON file.
-- deployed to Heroku
-- BONUS: allows users to delete notes.
+The note-taking appliction: 
+- When opened, Noted presents a landing page with a link to a notes page
+- When clicked on the link to the notes page, then the user is presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note's text in the right-hand column.
+- When the user enters a new note title and the note's text, then a Save icon appears in the navigation at the top of the page.
+- When he user clicks on the Save icon, then the new note the user entered is saved and appears to the left-hand column with the other existing notes.
+- When the user clicks on an existing note in the left-hand column list, then that note appears in the right-hand column.
+- When the user clicks on the Write icon in the navigation at the top of the page, then the user is presented with empty fields to enter a new note title and the note's text in the right-hand column. 
+- Noted's front end connects to an Express.js back end.
+- Noted's back end stores notes that have a unique id in a JSON file.
+- Noted is deployed to Heroku.
+- Noted allows users to delete notes.
 
 ```
 
 ## Contributing 
 Contributions are welcomed for future versions with features such as:
-- x
+- Making existing saved notes editable
 - additional enhancements
 
 For all contributions, please refer to [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) for contributing guidelines.
@@ -94,31 +86,21 @@ Noted project is covered by ISC license.
  ## Screenshots 
 Utilized Visual Studio Code
 
-1. Demo of tests passed, node index initiating the application, index.html file created in the dist folder.
+1. Main Page - User will click on Get Started button
 
-    <img src="./public/assets/media/x" style="width:30rem">
+    <img src="./public/assets/images/mainpage.png" style="width:30rem">
 
-2. Answer the questions within the terminal prompts - utilizes the [Inquirer 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4) package from [npm.Inc.].(https://www.npmjs.com/) to obtain the user inputs. THEN a profile is created.
+2. Notes page with a new note ready for entry
 
-    <img src="./public/assets/media/x" style="width:30rem">
+    <img src="./public/assets/images/notespage.png" style="width:30rem">
 
-3. User can start over and doing so will clear the index.html of employee profiles.
+3. Saved note clicked on the left and appears on the right
 
-    <img src="./public/assets/media/x" style="width:30rem">
+    <img src="./public/assets/images/savednote.png" style="width:30rem">
 
-4. After all questions are answered, the application pushes employee cards into the [HTML file](./dist/index.html) and applies the [CSS](./dist/style.css) styling to those cards. <br> <br>Screenshots to show responsive to screen size.
+4. New note with the save icon appearing on the top right corner
 
-    <img src="./public/assets/media/x" style="width:30rem">
-    <img src="./public/assets/media/x" style="width:30rem">
-
-5. When the user clicks on an email address in the HTML, the user's default email program opens and populates the TO field of the email with the address
-
-    <img src="./public/assets/media/x" style="width:30rem">
-
-
-6. When the user clicks on the GitHub username, then that GitHub profile opens in a new tab
-
-    <img src="./public/assets/media/x" style="width:30rem">    
+    <img src="./public/assets/images/newnote.png" style="width:30rem">
 
 <br>
 
@@ -127,7 +109,7 @@ Credit for tutorials and guides I utilized in my code
 
 [Bootstrap](https://getbootstrap.com/): CSS styling
 
-[npm: Express](https://www.npmjs.com/package/express)
+[npm: Express](https://www.npmjs.com/package/express): Utilized for back end
 
 [npm: UUID](https://www.npmjs.com/package/uuid): Generate random ids 
 

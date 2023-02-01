@@ -1,27 +1,32 @@
 [
     {
-        "title": "Deploy on Heroku",
-        "text": "Check your Heroku access and learn how to deploy on Heroku\n",
-        "id": "cdba41f9-78f7-4fcc-81b5-a60733400a69"
+        "title": "10:00 am Orange Theory",
+        "text": "Workout during a lift class ",
+        "id": "d04c0c74-f49c-43f3-85f2-017621236539"
     },
     {
-        "title": "Complete the README",
-        "text": "Provide credit to the GWU bootcamp (11-Express => 01-Activities => 28-Stu_Mini-Project)",
-        "id": "1d254d19-a9d8-4eff-9778-ec7e717ef89c"
+        "title": "Groceries",
+        "text": "Make sure to buy: \n- Oranges\n- Pears\n- Water\n- Chicken\n- Steak\n- Coffee creamer\n- Baby snacks\n- Peppers\n- Onions\n- Asparagus\n- Salmon\n- Garlic\n- Ginger",
+        "id": "84ea5410-28af-464a-a0b1-8653509a291d"
     },
     {
-        "title": "Test for Delete",
-        "text": "Check Database to see if deleting",
-        "id": "ff753176-535b-48e7-b092-6f857d4153d0"
+        "title": "Store Inventory",
+        "text": "Check inventory of the store and make sure that we are stocked for the new season introduction.",
+        "id": "4601c88b-12ad-4f19-a3f9-f9c9831b69e6"
     },
     {
-        "title": "Test for console.info",
-        "text": "Testing",
-        "id": "cf0db3ca-81d0-4f3e-af57-4321965cfc1e"
+        "title": "Sales Forecast",
+        "text": "Complete sale forecast for the new Spring season ",
+        "id": "b7ed3f4c-09ee-4efa-b88e-93e146d39048"
     },
     {
-        "title": "Trying",
-        "text": "Again",
-        "id": "e76c2ef0-2718-4eb0-87c7-1b25c6bd6aca"
+        "title": "Dinner",
+        "text": "Double dinner date with potential client to broker deals with other businesses.",
+        "id": "482bfad0-4a2b-4f58-a020-c6c42f8a0d9b"
+    },
+    {
+        "title": "Prepare for Tomorrow Meeting",
+        "text": "Morning meeting with your regional managers",
+        "id": "4d09afaf-af35-44f0-a210-70ad69dabc95"
     }
 ]
